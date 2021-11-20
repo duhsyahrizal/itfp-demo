@@ -1,0 +1,287 @@
+.bg-image {
+  background-image: url("/img/background.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw auto;
+}
+
+.bg-transparent {
+  background-color: #00000055 !important;
+}
+
+hr.header {
+  border-top: 2px solid #1b2850 !important;
+  width: 32px;
+  margin-left:0;
+  margin-top:12px;
+  margin-bottom:0;
+}
+
+hr.bottom {
+  margin-top: 0 !important;
+  margin-left: 0;
+}
+
+.content-wrapper > .card .card-body {
+  padding: 0 !important;
+}
+
+.bg-iconnet {
+  background-color: #0596ad !important;
+  border-color: #0596ad !important;
+  color: #fff;
+}
+
+.bg-iconnet-2 {
+  background-color: #1b2850 !important;
+  border-color: #1b2850 !important;
+  color: #fff;
+}
+
+.btn-iconnet {
+  background-color: #0596ad !important;
+  border-color: #0596ad !important;
+  color: #fff;
+}
+
+.btn-iconnet-2 {
+  background-color: #1b2850 !important;
+  border-color: #1b2850 !important;
+  color: #fff;
+}
+
+.btn-iconnet:hover {
+  background-color: #046e7e !important;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-iconnet-2:hover {
+  background-color: #151f3c !important;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+a.bg-iconnet:hover {
+  background-color: #047587 !important;
+}
+
+.block-icon {
+  border-radius: 50% !important; 
+  padding: 10px; 
+}
+
+.icon-shape
+{
+    display: inline-flex;
+
+    padding: 12px;
+
+    text-align: center;
+
+    border-radius: 50%; 
+
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shape i,
+.icon-shape svg
+{
+    font-size: 1.25rem;
+}
+
+.icon
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon i,
+.icon svg
+{
+    font-size: 2.25rem;
+}
+
+.text-iconnet {
+  color: #0596ad !important;
+}
+
+.text-iconnet-2 {
+  color: #1b2850 !important;
+}
+
+.dropdown-wave.dropdown-item:hover, .dropdown-wave.dropdown-item:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0596ad;
+  transition: all 0.2s ease-in-out;
+}
+
+.card.card-iconnet {
+  background: #1b2850;
+  color: #ffffff;
+}
+
+.card.card-iconnet:hover {
+  background: #131d3a;
+}
+
+.card.card-iconnet-secondary {
+  background: #0596ad;
+  color: #ffffff;
+}
+
+.card.card-iconnet-secondary:hover {
+  background: #047587;
+}
+
+.notice {
+  padding-left: 10.5rem !important;
+}
+
+.card-primary.card-outline {
+  border-top: 3px solid #1b2850 !important;
+}
+
+/* Background gradient */
+
+.bg-gradient-primary
+{
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+}
+
+.bg-gradient-secondary
+{
+    background: linear-gradient(87deg, #f7fafc 0, #f7f8fc 100%) !important;
+}
+
+.bg-gradient-success
+{
+    background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-info
+{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-warning
+{
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.bg-gradient-danger
+{
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;
+}
+
+.bg-gradient-light
+{
+    background: linear-gradient(87deg, #adb5bd 0, #adaebd 100%) !important;
+}
+
+.bg-gradient-dark
+{
+    background: linear-gradient(87deg, #212529 0, #212229 100%) !important;
+}
+
+.bg-gradient-default
+{
+    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+}
+
+.bg-gradient-white
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-neutral
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-darker
+{
+    background: linear-gradient(87deg, black 0, black 100%) !important;
+}
+
+.bg-gradient-blue
+{
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+}
+
+.bg-gradient-indigo
+{
+    background: linear-gradient(87deg, #5603ad 0, #9d03ad 100%) !important;
+}
+
+.bg-gradient-purple
+{
+    background: linear-gradient(87deg, #8965e0 0, #bc65e0 100%) !important;
+}
+
+.bg-gradient-pink
+{
+    background: linear-gradient(87deg, #f3a4b5 0, #f3b4a4 100%) !important;
+}
+
+.bg-gradient-red
+{
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;
+}
+
+.bg-gradient-orange
+{
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.bg-gradient-yellow
+{
+    background: linear-gradient(87deg, #ffd600 0, #beff00 100%) !important;
+}
+
+.bg-gradient-green
+{
+    background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-teal
+{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-cyan
+{
+    background: linear-gradient(87deg, #2bffc6 0, #2be0ff 100%) !important;
+}
+
+.bg-gradient-white
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-gray
+{
+    background: linear-gradient(87deg, #8898aa 0, #888aaa 100%) !important;
+}
+
+.bg-gradient-gray-dark
+{
+    background: linear-gradient(87deg, #32325d 0, #44325d 100%) !important;
+}
+
+.bg-gradient-light
+{
+    background: linear-gradient(87deg, #ced4da 0, #cecfda 100%) !important;
+}
+
+.bg-gradient-lighter
+{
+    background: linear-gradient(87deg, #e9ecef 0, #e9eaef 100%) !important;
+}
+
+.bg-translucent-primary
+{
+    background-color: rgba(63, 87, 223, .6) !important;
+}
