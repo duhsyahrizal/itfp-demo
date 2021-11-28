@@ -15,4 +15,14 @@ class AdminController extends Controller
         
         return view('home', $data);
     }
+
+    public function deleteSession($id)
+    {
+        DeviceSession::where('id', $id)->delete();
+
+        return redirect()->back()->with([
+            'success'       => true,
+            'message'       => 'Device Session has been deleted.'
+        ]);
+    }
 }

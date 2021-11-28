@@ -40,6 +40,7 @@
               <th>Brand</th>
               <th>Model</th>
               <th>Action Date</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -52,6 +53,7 @@
               <td>{{ $device->brand }}</td>
               <td>{{ $device->model }}</td>
               <td>{{ $device->created_at->format('H:i:s d-m-Y') }}</td>
+              <td><a href="/admin/delete/{{ $device->id }}" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a></td>
             </tr>
             @endforeach
           </tbody>
@@ -71,6 +73,12 @@
   <script src="/skydash/js/template.js"></script>
   <script src="/skydash/js/settings.js"></script>
   <script src="/skydash/js/todolist.js"></script>
+  <script>
+    @if(session('message'))
+    let message = '{{ session('message') }}';
+    alert(message);
+    @endif
+  </script>
   <!-- endinject -->
 </body>
 

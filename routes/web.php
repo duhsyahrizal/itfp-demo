@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function() {
   Route::get('', 'AdminController@index')->name('home');
+  Route::get('delete/{id}', 'AdminController@deleteSession');
 
   Route::get('logout', 'AuthController@logout')->name('logout');
 });

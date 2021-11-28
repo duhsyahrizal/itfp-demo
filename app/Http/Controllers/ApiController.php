@@ -26,8 +26,8 @@ class ApiController extends Controller
         ]);
 
         return response()->json([
-            'status'    => 'success',
-            'data'      => 'http://192.168.43.238/assets/videos/demo-video.mp4'
+            'success'   => true,
+            'data'      => 'http://103.93.56.27/plesk-site-preview/demo-app.itfpsolutions.com/https/192.168.68.9/assets/videos/demo-video.mp4'
         ], 200);
     }
 }
